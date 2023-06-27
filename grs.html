@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Igreja Fire</title>
+
+  <link rel="stylesheet" href="./CSS/principal.css">
+  <link rel="stylesheet" href="./CSS/grs.css">
+</head>
+
+<body id="corpo">
+  <header>
+    
+    <div id="logoTipo">
+      <img id="logoTipoImg" src="" alt="logotipo da igreja fire">
+      <p>IGREJA<br> FIRE</p>
+    </div>
+
+    <nav id="cabecalho">
+      <ul>
+        <li><a class="navegacao" href="index.html">HOME</a></li>
+        <li><a class="navegacao" href="historia.html">HISTÓRIA</a></li>
+        <!--
+        <li><a class="navegacao" href="agenda.html">AGENDA</a></li>
+        <li><a class="navegacao" href="galeria.html">GALERIA</a></li>
+        -->
+        <li><a class="navegacao selecionado" href="grs.html">GRS</a></li>
+        <li><a id="botao_visite_nos" class="navegacao" href="">VISITE-NOS</a></li>
+        <li><a id="botao_doe" class="navegacao" href="">DOE</a></li>
+        <ul id="redes_sociais">
+          <li><a class="redesSociais" href="https://www.facebook.com/IgrejaFire"><img class="face" src="./IMG/facebook.png" alt="facebook"></a></li>
+          <li><a class="redesSociais" href="https://www.instagram.com/igrejafireoficial/"><img class="insta" src="./IMG/instagram.png" alt="instagram"></a></li>
+          <li><a class="redesSociais" href="https://www.youtube.com/c/IgrejaFire"><img class="you" src="./IMG/youtube.png" alt="youtube"></a></li>
+        </ul>
+      </ul>
+    </nav>
+
+    <div id="fadeV" class="hide"></div>
+    <div id="visite_nos" class="hide">
+      
+      <div>
+        <label id="fechar_visite_nos" class="label_fechar">
+          <div class="fechar"></div>
+      </div>
+      
+      <div class="conteudo_modal">
+        <h3>ENDEREÇO</h3>
+        <p> Rua Estrada da Roseira, 6111, Borda do Campo, <br> 
+            SJP - PR <br>
+            CEP: 83070-010</p> <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7200.132370316837!2d-49.09666443859495!3d-25.536172193298075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcf59fb7175991%3A0xb933178e7428e0e8!2sFire%20Church!5e0!3m2!1spt-BR!2sbr!4v1663258952474!5m2!1spt-BR!2sbr" 
+        width="280" height="200" style="border:0;" allowfullscreen="" loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      
+    </div>
+    <div id="fadeD" class="hide"></div>
+    <div id="doe" class="hide">
+      <div>
+        <label id="fechar_doe" class="label_fechar">
+          <div class="fechar"></div>
+      </div> <br>
+      
+      <div class="conteudo_modal">
+        <h2>agência:</h2>
+        <h2>conta:</h2>
+        <h2>pix:</h2>
+        <img src="" alt="QR-Code">
+      </div>
+    </div>
+
+  </header>
+
+  <main>
+
+    <section id="parte1" class="BG">
+      <div id="celulas">
+        
+      </div>
+    </section>
+  </main>
+
+  <footer class="BG">
+    <div class="esquerda">
+      <div>
+        <h3>ENDEREÇO</h3>
+        <p> Rua Estrada da Roseira, 6111,
+          Borda do Campo, SJP - PR
+          CEP: 83070-010</p> <br>
+
+        <h3>EMAIL</h3>
+        <p>fire@igrejafire.com</p> <br>
+
+        <h3>TEL</h3>
+        <p>(41) 98837-5459</p>
+      </div>
+    </div>
+    <div class="direita">
+      <div>
+        <img class="cruz" src="./IMG/cruz.png" alt="Cruz">
+        <h2>FIQUE POR DENTRO</h2>
+        <p>Assine para saber de nossas novidades e eventos</p>
+        <form>
+          <input type="email" name="email" class="email" placeholder="Email" required>
+          <input id="inscreva-se" type="submit" value="Inscreva-se">
+        </form>
+        <p>Obrigado pelo envio!</p>
+      </div>
+    </div>
+  </footer>
+  <script src="./JS/criaCelulas.js" type="module"></script>
+  <script src="./JS/cabecalho.js"></script>
+</body>
+
+</html>

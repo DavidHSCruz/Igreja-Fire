@@ -1,0 +1,43 @@
+@media (max-width:799px) {
+    
+    .BG>div#historia {
+        margin: auto;
+        width: 90%;
+        text-align: start;
+    }
+    .BG>div#historia>h2 {
+        font-size: 2em;
+        color: #ff4040;
+        font-family: Brandon grotesque b;
+    }
+    .BG>div#historia>p {
+        font-size: 1.2em;
+        font-family: Brandon grotesque;
+    }
+    #parte1.BG {
+        padding: 100px 0;
+        color: #f4f4f4;
+    }
+}
+
+@media (min-width:800px) {
+    
+    .BG>div#historia {
+        margin: auto;
+        width: 80%;
+        text-align: center;
+    }
+    .BG>div#historia>h2 {
+        font-size: 2em;
+        color: #ff4040;
+        font-family: Brandon grotesque b;
+    }
+    .BG>div#historia>p {
+        font-size: 1.2em;
+        font-family: Brandon grotesque;
+    }
+    #parte1.BG {
+        padding: 150px 0;
+        color: #f4f4f4;
+    }
+}

@@ -1,0 +1,262 @@
+
+body>header {
+    z-index: 800;
+}
+body>header>nav {
+    z-index: 800;
+}
+
+@media (max-width:899px) {
+    header nav {
+        position: fixed;
+        top: 0; left: -100%;
+        display: flex;
+        background: linear-gradient(#f4f4f400 50%, #f4f4f43f 200%);
+        border-radius: 0px 0px 25px 25px;
+        justify-content: start;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0px 0px 10px #0000055a;
+        backdrop-filter: blur(20px) brightness(90%);
+        
+        /*Transição de entrada e saida no TOP feita em JS*/
+        /*transition: left 500ms cubic-bezier(.2, .2, .4, 1);*/
+    }
+    header nav>ul {
+        display: block;
+        width: 100%;
+        margin: auto 0 auto 40px;
+    }
+    header nav>ul>li {
+        padding: 5px 0;
+    }
+
+
+    #logoTipo {
+        position: fixed;
+        top     : 25px; left    : 15px;
+        width   : 50px; height  : 50px;
+        z-index: 999;
+        transition: 1s;
+    }
+    #logoTipoImg {
+        width   : 50px; height  : 50px;
+        cursor: pointer;
+        filter: grayscale(1) brightness(10) drop-shadow(0px 0px 2px #00000025);
+    }
+    #logoTipo>p {
+        display: none;
+    }
+
+    nav ul#redes_sociais {
+        display: flex;
+    }
+    .navegacao {
+        display: block;
+        padding: 3vh 10px;
+        font-weight: 700;
+        font-size: .9em;
+        text-decoration: none;
+        text-shadow: 0px 1px 2px #000005cc;
+        }
+        .navegacao:link,.navegacao:visited {
+            color       : #fff;
+        }
+        .navegacao:hover {
+            color           : #fff;
+            background      : #e5341191;
+            border-radius   : 15px;
+            transition  : 200ms;
+        }
+        .navegacao:active {
+            color           : #fff;
+            background      : #e53411;
+            border-radius   : 15px;
+        }
+        .navegacao.selecionado {
+            cursor: text;
+            color           : #fff;
+            background      : #e53411;
+            border-radius   : 15px;
+    }
+    .redesSociais img {
+            margin      : 0px 5px;
+        }
+        .redesSociais .face {
+            height      : 25px; 
+            transform   : translateY(-4px);
+            filter      : invert(1) drop-shadow(0px 1px 2px #0000055a);
+        }
+        .redesSociais .insta {
+            height      : 22px; 
+            transform   : translateY(-2px);
+            filter      : invert(1) drop-shadow(0px 1px 2px #0000055a);
+        }
+        .redesSociais .you {
+            height      : 20px; 
+            transform   : translateY(-1px);
+            filter      : invert(1) drop-shadow(0px 1px 2px #0000055a);
+    }
+}
+
+@media (min-width:900px) {
+
+    header nav {
+        position: fixed;
+        left: 50%; top: -100px;
+        transform: translate(-50%, 0px);
+        display: flex;
+        background: linear-gradient(#f4f4f400 50%, #f4f4f43f 200%);
+        border-radius: 0px 0px 25px 25px;
+        justify-content: space-around;
+        min-width: 750px;
+        width: 60%;
+        padding: 30px 0px 10px 0px;
+        box-shadow: 0px 0px 10px #0000055a;
+        backdrop-filter: blur(20px) brightness(90%);
+        
+        /*Transição de entrada e saida no TOP feita em JS*/
+        /*transition: top 1s;*/
+    }
+
+    header nav ul {
+        display: flex;
+    }
+
+    #logoTipo {
+        position: fixed;
+        top     : 15px; left    : 15px;
+        width   : 60px; height  : 52px;
+        overflow: hidden;
+        transition: 700ms;
+    }
+    #logoTipo:hover {
+        height: 100px;
+    }
+    #logoTipo>img {
+        width   : 50px; height  : 50px;
+        filter: grayscale(1) brightness(10);
+    }
+    #logoTipo>p {
+        font-family: Lulo clean;
+        color: #fff0;
+        font-size: .6em;
+        margin-left: 4px;
+        transition: 700ms;
+    }
+    #logoTipo:hover p {
+        color: #ffff;
+    }
+
+    .navegacao {
+        padding: 10px 15px 10px 15px;
+        font-weight: 700;
+        font-size: .9em;
+        text-decoration: none;
+        text-shadow: 0px 1px 2px #000005cc;
+        }
+        .navegacao:link,.navegacao:visited {
+            color       : #fff;
+        }
+        .navegacao:hover {
+            color       : #ff4040;
+            transition  : 200ms;
+        }
+        .navegacao:active {
+            color           : #fff;
+            background      : #e53411;
+            border-radius   : 15px;
+        }
+        .navegacao.selecionado {
+            cursor: text;
+            color           : #fff;
+            background      : #e53411;
+            border-radius   : 15px;
+    }
+    .redesSociais img {
+            margin      : 0px 5px;
+        }
+        .redesSociais .face {
+            height      : 25px; 
+            transform   : translateY(-4px);
+            filter      : invert(1) drop-shadow(0px 1px 2px #0000055a);
+        }
+        .redesSociais .insta {
+            height      : 22px; 
+            transform   : translateY(-2px);
+            filter      : invert(1) drop-shadow(0px 1px 2px #0000055a);
+        }
+        .redesSociais .you {
+            height      : 20px; 
+            transform   : translateY(-1px);
+            filter      : invert(1) drop-shadow(0px 1px 2px #0000055a);
+    }
+}
+
+#fadeV, #fadeD {
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px) brightness(40%);
+}
+#fadeV, #fadeD, #visite_nos, #doe {
+  transition: 500ms;
+  position: fixed;
+  opacity: 1;
+  z-index: 999;
+}
+#visite_nos, #doe {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  width: 90%;
+  max-width: 600px;
+  border-radius: 15px;
+}
+#fadeV.hide, #fadeD.hide, 
+#visite_nos.hide, #doe.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+#visite_nos.hide, #doe.hide {
+  top: 25%;
+}
+#visite_nos {
+  background: #e53411;
+}
+#doe {
+  background: #14151c;
+}
+#visite_nos>div, #doe>div {
+  margin: auto;
+  padding: 25px;
+  color: #f4f4f4;
+}
+.conteudo_modal {
+  width: 90%;
+}
+.fechar, .fechar::after {
+  position: absolute;
+  background: #333;
+  width: 30px;
+  height: 5px;
+  border-radius: 2px;
+  
+}
+.fechar {
+  top: 22.5px; right: 10.5px;
+  transform: rotate(45deg);
+}
+.fechar::after {
+  content: "";
+  transform: rotate(90deg);
+  box-shadow: -1px -1px 5px #0003;
+}
+.label_fechar {
+  position: absolute;
+  top: 10px; right: 10px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  z-index: 200;
+}

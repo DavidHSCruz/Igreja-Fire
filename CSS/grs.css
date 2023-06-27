@@ -1,0 +1,84 @@
+:root {
+  --color-bg1-celula: #f4f4f4;
+  --color-bg2-celula: #e54747;
+}
+#celulas>div>span.tipo1 {
+  background: var(--color-bg1-celula);
+}
+#celulas>div>span.tipo2 {
+  background: var(--color-bg2-celula);
+}
+#celula_img.tipo1 {
+  filter: drop-shadow(2px -5px 0 var(--color-bg1-celula));
+}
+#celula_img.tipo2 {
+  filter: drop-shadow(2px -5px 0 var(--color-bg2-celula));
+}
+#celulas>div.tipo1 {
+  flex-direction: row;
+}
+#celulas>div.tipo2 {
+  flex-direction: row-reverse;
+}
+
+@media (max-width:500px){
+  #celula_inf {
+    text-align: center;
+  }
+}
+@media (min-width:501px){
+  #celula_inf {
+    text-align: start;
+  }
+}
+
+#celulas {
+  width: 100%;
+}
+#celulas>div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  margin: 100px auto;
+}
+#celulas>div>span {
+  display: block;
+  border-radius: 75px;
+  width: 110px;
+  height: 110px;
+}
+#celulas>div>span>div {
+  border-radius: 75px;
+  width: 110px;
+  height: 160px;
+  transform: translateY(-50px);
+  overflow: hidden;
+}
+#celula_img {
+  width: 150px;
+  height: 150px;
+  transform: translate(-20px, 10px);
+}
+#celula_inf {
+  padding: 20px;
+  width: min(74.7%, 800px);
+}
+#titulo_celula,
+#data_celula {
+  font: 1.2em Brandon grotesque b;
+  color: #a0a0b0;
+}
+#nome_lider {
+  font: 1.0em Brandon grotesque b;
+  color: #707080;
+}
+#data_celula {
+  color: #707080;
+}
+#descricao_celula,
+#local_celula {
+  font: Brandon grotesque;
+  color: #505060;
+}

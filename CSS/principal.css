@@ -1,0 +1,44 @@
+@import url('reset.css');
+@import url('cabecalho.css');
+@import url('rodape.css');
+
+:root {
+    --cor-branco-1: #f4f4f4;
+    --cor-preto-1: #000000;
+    --cor-azul-escuro-1: #35373d;
+    --cor-azul-escuro-2: #14151C;
+    --cor-vermelho-1: #e53411;
+    --cor-vermelho-2: #FF4040;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Brandon grotesque, Arial, sans-serif;
+    font-size: 15px;
+}
+
+.BG {
+    display: flex;
+}
+
+body {
+    background: #0c141d;
+}
+
+@font-face {
+    font-family: Lulo clean;
+    src: url(../Fonts/Lulo\ Clean\ W01\ One\ Bold.ttf);
+}
+@font-face {
+    font-family: Brandon grotesque;
+    src: url(../Fonts/brandon-grotesque-light-58a8a4b38001d.otf);
+}
+@font-face {
+    font-family: Brandon grotesque b;
+    src: url(../Fonts/brandon-grotesque-black-58a8a3e824392.otf);
+}

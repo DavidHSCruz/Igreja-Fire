@@ -1,0 +1,131 @@
+
+@media (max-width:899px) {
+  footer.BG {
+      display: block;
+      background: #14151C;
+      height: 30vh;
+  }
+  
+  footer div.esquerda {
+      display: flex;
+      padding: 20px;
+      color: #f4f4f4;
+  }
+  footer div.esquerda>div {
+      margin: auto;
+      height: 100%;
+  }
+  
+  footer div.direita {
+      display: flex;
+      padding: 20px;
+      color: #f4f4f4;
+  }
+  footer div.direita>div {
+      text-align: center;
+      margin: auto;
+      height: 100%;
+  }
+  footer div.direita>div img.cruz {
+      display: block;
+      margin: auto;
+      width: 50px;
+  }
+  footer div.direita>div>h2 {
+      font-family: Lulo clean;
+      font-size: 1.4em;
+      color: #e53411;
+  }
+  footer div.direita>div>p {
+      font-size: 1.1em;
+  }
+  footer div.direita>div>form {
+      display: flex;
+  }
+  footer div.direita>div>form>input.email {
+      padding: 10px;
+      width: 70%;
+  }
+  footer div.direita>div>form input#inscreva-se {
+      font-family: Brandon grotesque;
+      font-size: 1.1em;
+      color: #f4f4f4;
+      background: #e53411;
+      border: none;
+      padding: 10px;
+      width: 30%;
+  }
+  footer div.direita>div>form input#inscreva-se:hover {
+      background: #f0401d;
+  }
+  footer div.direita>div>form input#inscreva-se:active {
+      background: #ff4040;
+  }
+}
+@media (min-width:900px) {
+  footer.BG {
+      display: flex;
+      background: #14151C;
+      width: 100%;
+      height: 30vh;
+  }
+  
+  footer div.esquerda {
+      display: flex;
+      padding: 20px;
+      width: 30%;
+      color: #f4f4f4;
+  }
+  footer div.esquerda>div {
+      margin: auto;
+      height: 100%;
+  }
+  
+  footer div.direita {
+      display: flex;
+      padding: 20px;
+      width: 70%;
+      color: #f4f4f4;
+  }
+  footer div.direita>div {
+      text-align: center;
+      margin: auto;
+      height: 100%;
+      width: 80%;
+  }
+  footer div.direita>div img.cruz {
+      display: block;
+      margin: auto;
+      width: 60px;
+  }
+  footer div.direita>div>h2 {
+      font-family: Lulo clean;
+      font-size: 1.5em;
+      color: #e53411;
+  }
+  footer div.direita>div>p {
+      font-size: 1.1em;
+  }
+  footer div.direita>div>form {
+      display: flex;
+  }
+  footer div.direita>div>form>input.email {
+      padding: 10px;
+      width: 75%;
+  }
+  footer div.direita>div>form input#inscreva-se {
+      font-family: Brandon grotesque;
+      font-size: 1.1em;
+      color: #f4f4f4;
+      background: #e53411;
+      border: none;
+      padding: 10px;
+      width: 25%;
+  }
+  footer div.direita>div>form input#inscreva-se:hover {
+      background: #f0401d;
+  }
+  footer div.direita>div>form input#inscreva-se:active {
+      background: #ff4040;
+  }
+}

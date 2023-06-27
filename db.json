@@ -1,0 +1,68 @@
+{
+  
+  "celulas": [
+    {
+      "id": 1,
+      "titulo": "Firmados na Rocha",
+      "lider": "Marcos Santos",
+      "img_gr": "./IMG/FirmadosnaRocha.jpg",
+      "img_lider": "./IMG/Marcos.png",
+      "descricao": "Firmados na rocha são aqueles que ouvem a palavra de Deus e as praticam, são prudentes e suas construções jamais cairão.",
+      "local": "Estrada da Roseira, 6111 - Borda do Campo",
+      "data": "Sábados às 20h"
+    },
+    {
+      "id": 2,
+      "titulo": "Até Sermos Um",
+      "lider": "Wesley Reis e Daniele",
+      "img_gr": "/FireWeb/IMG/AtesermosUm.jpg",
+      "img_lider": "./IMG/WesleyDanni.png",
+      "descricao": "Até Sermos Um são aqueles que pelo amor de Cristo buscam a unidade em comunhão.",
+      "local": "Rua André Pirbiche, 258 - Borda do Campo",
+      "data": "Sexta-feira às 20h"
+    },
+    {
+      "id": 3,
+      "titulo": "Efraim",
+      "lider": "Ademir e Andresa",
+      "img_gr": "./IMG/Efraim.jpg",
+      "img_lider": "./IMG/AdemirAndresa.png",
+      "descricao": "Efraim são aqueles que acreditam que com Deus é possivel prosperar independentemente das circustâncias.",
+      "local": "Estrada da Roseira, 6111 - Borda do Campo",
+      "data": "Quinta-feira às 20h"
+    },
+    {
+      "id": 4,
+      "titulo": "Cartas Vivas",
+      "lider": "Cristiano e Amanda",
+      "img_gr": "./IMG/CartasVivas.jpg",
+      "img_lider": "./IMG/CrisAmanda.png",
+      "descricao": "Cartas Vivas são aqueles com sua história escrita pelo próprio Cristo gravada em seus corações.",
+      "local": "Estrada da Roseira, 6111 - Borda do Campo",
+      "data": "Sexta-feira às 20h"
+    },
+    {
+      "id": 5,
+      "titulo": "Mais que Vencedores",
+      "lider": "Roger e Kelly",
+      "img_gr": "./IMG/MaisqueVencedores.jpg",
+      "img_lider": "./IMG/RogerKelly.png",
+      "descricao": "Mais que Vencedores são aqueles que entendem e creem no que Cristo vez por cada um de nós.",
+      "local": "Rua Lajes, 1237 - Borda do Campo",
+      "data": "Quinta-feira às 20h"
+    }
+  ],
+
+  "registros": [
+    {
+      "nome": "David Henrique da Silva Cruz",
+      "idade": "27",
+      "CEP": "83050-520"
+    },
+    {
+      "nome": "Natalia do Rocio Luiz Cruz",
+      "idade": "26",
+      "CEP": "83050-520"
+    }
+  ]
+}
