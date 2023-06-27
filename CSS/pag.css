@@ -273,7 +273,7 @@
     ----------*/
 
     #parte3>div.direita {
-        background: var(--cor-branco-1);
+        background: var(--cor-vermelho-1);
     }
     #parte3>div.direita>div {
         margin: auto 20px;
