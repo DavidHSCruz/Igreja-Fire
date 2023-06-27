@@ -56,13 +56,11 @@
   "registros": [
     {
       "nome": "David Henrique da Silva Cruz",
-      "idade": "27",
-      "CEP": "83050-520"
+      "idade": "27"
     },
     {
       "nome": "Natalia do Rocio Luiz Cruz",
-      "idade": "26",
-      "CEP": "83050-520"
+      "idade": "26"
     }
   ]
 }

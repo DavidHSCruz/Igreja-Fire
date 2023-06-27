@@ -214,9 +214,9 @@
             </div>
 
             <form action="">
-              <input id="nome" type="text" name="nome" placeholder="Nome" required>
-              <input class="email" type="email" name="emal" placeholder="Email" required>
-              <input id="telefone" type="tel" name="telefone" placeholder="Telefone" required>
+              <input id="nome" type="text" name="nome" placeholder="Nome" required minlength="3">
+              <input class="email" type="email" name="emal" placeholder="Email" required minlength="10">
+              <input id="telefone" type="tel" name="telefone" placeholder="Telefone" required minlength="10" maxlength="15" pattern="\(?\d{2}\)?\d{5}\-?\d{4}"/>
               <textarea id="areatexto" name="digite sua mensagem" placeholder="Digite sua mensagem aqui..."></textarea>
               <input id="submit" type="submit" value="Enviar">
             </form>
